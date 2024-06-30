@@ -1,0 +1,257 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('font/misans.ttf') format('woff2'),
+       url('font/misans.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.all {
+  font-family: 'misans.ttf', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+ 
+li {
+    float: right;
+}
+ 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+/*鼠标移动到选项上修改背景颜色 */
+li a:hover {
+    background-color: transparent;
+}
+
+.top {
+    position:relative;
+}
+
+.top_pic{
+        width: 100%;
+        height: 50%;
+        position:absolute;
+        top:0px;
+        left:0px;
+}
+
+/*图片*/
+.img___2uFMT
+{
+    margin:32px auto 0;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    overflow:hidden
+}
+.footerWrapper___3n7dX{
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-flex-direction:column;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  width:100%;
+  height:390px;
+  color:#fff;
+  background:#1a1f25
+}
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7{
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  justify-content:space-between;
+  -ms-flex-pack:justify;
+  justify-content:space-between;
+  width:1112px;margin-top:80px
+}
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .callUs___1kd2v .flexContainer___3eTcy{
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center}
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .callUs___1kd2v .contactUs___3rM7H {
+    height: 28px;
+    margin-left: 7px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    line-height: 28px;
+}
+
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .callUs___1kd2v .contactDesc___3TROS {
+    height: 20px;
+    margin-top: 18px;
+    color: #acb1b6;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    line-height: 20px;
+}
+
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .callUs___1kd2v .phoneNum___XOLei {
+    margin-top: 8px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 42px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    line-height: 59px;
+}
+
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .QRCodeContainer___1_lBN {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 546px;
+}
+
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .QRCodeContainer___1_lBN .QRCodeCard___2LOWZ {
+    width: 150px;
+}
+
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .QRCodeContainer___1_lBN .QRCodeCard___2LOWZ .image___1yv9t {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .QRCodeContainer___1_lBN .QRCodeCard___2LOWZ .image___1yv9t img {
+    width: 100%;
+    height: 100%;
+}
+
+.footerWrapper___3n7dX .footerDetailContainer___1eIU7 .QRCodeContainer___1_lBN .QRCodeCard___2LOWZ .title___MhkPP {
+    margin-top: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    line-height: 22px;
+    text-align: center;
+}
+
+.footerWrapper___3n7dX .copyright___32N-3 {
+    margin-top: 80px;
+    color: #acb1b6;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    line-height: 18px;
+}
+
+.footerWrapper___3n7dX .copyright___32N-3 a {
+    color: #acb1b6;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 100px;
+    margin: auto;
+    width: 60%;
+    padding: 50px;
+    font-size:14px;
+  }
+  
+.card {
+  display: grid;
+  grid-template-rows: max-content 200px 2fr;
+}
+  
+.card img {
+  width: 40%;
+  text-align: center;
+}
+
+.time {
+  color: rgb(146 143 137);
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .footer-section:last-child {
+    margin-right: 0;
+  }
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .footer-section p, .footer-section a {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .footer-section a:hover {
+    color: #fff;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+  }
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* 确保导航栏固定在顶部并在最前面 */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.top_pic {
+    padding-top: 56px; /* 给滚动图片上方预留空间，避免被导航栏遮住 */
+}
+html {
+  scroll-behavior: smooth;
+}
